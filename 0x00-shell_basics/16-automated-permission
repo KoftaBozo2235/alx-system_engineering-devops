@@ -1,0 +1,6 @@
+echo "Enter Your File: "
+read my_var
+echo "Welcome ${my_var}!"
+
+
+chmod 777 ${my_var}
