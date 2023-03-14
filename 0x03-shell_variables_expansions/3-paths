@@ -1,2 +1,2 @@
 #!/bin/bash
-export $PATH="find -type d -mindepth 1 -print | wc -l"
+echo $PATH | grep -o ':' | wc -l
